@@ -1,0 +1,37 @@
+.button{
+    height: 3em;
+    align-items: center;
+    justify-content: center;
+    background-color: #7F8487;
+    color: #fff;
+    display: flex;
+    flex:1;
+    font-size: 1.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: 1px solid black;
+    margin: 0px;
+}
+.button:active{
+    background-color: #D4D4D2;
+}
+
+
+.operator{
+    background-color: #FF9500;
+    color: #fff;
+}
+.operator:active{
+    background-color: #C87941;
+}
+
+.zero{
+    flex:2; 
+    border-radius: 0px 0px 0px 20px;
+}
+
+.topmostButtons {
+    background-color: #505050;
+}
+.topmostButtons:active{
+    background-color: #7F8487;
+}
